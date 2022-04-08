@@ -16,7 +16,7 @@
 }
 
 .button:hover {
-    background-color: #0f5c89;
+    background-color: #1B98E0;
     cursor: pointer
 }
 
@@ -34,6 +34,11 @@
     margin: auto;
 }
 
+.bigbutton:hover {
+    background-color: #0f5c89;
+    cursor: pointer
+}
+
 .bracket {
     background-color: #1B98E0;
     border: #001D4A;
@@ -43,6 +48,44 @@
     text-align: center;
     border-radius: 25px;
     border-style: solid;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bracket_left {
+    background-color: #1B98E0;
+    border: #001D4A;
+    font-family: Verdana;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25px;
+    border-style: solid;
+    width: 48%;
+    height: 8%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bracket_right {
+    background-color: #1B98E0;
+    border: #001D4A;
+    font-family: Verdana;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25px;
+    border-style: solid;
+    width: 48%;
+    height: 8%;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 #logo {
