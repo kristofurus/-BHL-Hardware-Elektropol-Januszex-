@@ -1,25 +1,64 @@
 /* style of page body */
-body
-{
+body {
     background-color: #FAFAFF;
 }
 
 /* style of button */
-button
-{
+button {
     background-color: #1B98E0;
     border: #001D4A;
     font-family: Verdana;
     color: #FFFFFF;
+    font-size: 20px;
     border-radius: 25px;
     border-style: solid;
 }
 
-div
-{
+logo {
     background-color: #1B98E0;
     border: #001D4A;
     font-family: Verdana;
     color: #FFFFFF;
+    font-size: 20px;
     border-style: solid;
+}
+
+nav {
+    background-color: #1B98E0;
+    border: #001D4A;
+    font-family: Verdana;
+    color: #FFFFFF;
+    font-size: 20px;
+    border-style: solid;
+    float: left;
+}
+
+content {
+    background-color: #1B98E0;
+    border: #001D4A;
+    font-family: Verdana;
+    color: #FFFFFF;
+    font-size: 20px;
+    border-style: solid;
+    float: left;
+}
+
+ad {
+    background-color: #1B98E0;
+    border: #001D4A;
+    font-family: Verdana;
+    color: #FFFFFF;
+    font-size: 20px;
+    border-style: solid;
+    float: left;
+}
+
+footer {
+    background-color: #1B98E0;
+    border: #001D4A;
+    font-family: Verdana;
+    color: #FFFFFF;
+    font-size: 20px;
+    border-style: solid;
+    clear: both;
 }
