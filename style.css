@@ -50,9 +50,9 @@
     font-size: 20px;
     border-style: solid;
     float: left;
-    width: 120px;
+    width: 10%;
     min-height: 620px;
-    padding: 10px;
+    padding: 2%;
 }
 
 #content {
@@ -63,9 +63,9 @@
     font-size: 20px;
     border-style: solid;
     float: left;
-    padding: 20px;
-    width: 1460px;
-    min-height: 600px;
+    padding: 2%;
+    width: 62%;
+    min-height: 620px;
 }
 
 #ad {
@@ -76,9 +76,9 @@
     font-size: 20px;
     border-style: solid;
     float: left;
-    width: 160px;
+    width: 15%;
     min-height: 620px;
-    padding: 10px;
+    padding: 2%;
 }
 
 #footer {
