@@ -21,6 +21,8 @@ logo {
     color: #FFFFFF;
     font-size: 20px;
     border-style: solid;
+    padding: 15px;
+    text-align: center;
 }
 
 nav {
@@ -31,6 +33,9 @@ nav {
     font-size: 20px;
     border-style: solid;
     float: left;
+    width: 120px;
+    min-height: 620px;
+    padding: 10px;
 }
 
 content {
@@ -41,9 +46,12 @@ content {
     font-size: 20px;
     border-style: solid;
     float: left;
+    padding: 20px;
+    width: 640px
 }
 
-ad {
+ad
+ {
     background-color: #1B98E0;
     border: #001D4A;
     font-family: Verdana;
@@ -51,9 +59,13 @@ ad {
     font-size: 20px;
     border-style: solid;
     float: left;
+    width: 160px;
+    min-height: 620px;
+    padding: 10px;
 }
 
-footer {
+footer
+ {
     background-color: #1B98E0;
     border: #001D4A;
     font-family: Verdana;
@@ -61,4 +73,6 @@ footer {
     font-size: 20px;
     border-style: solid;
     clear: both;
+    text-align: center;
+    padding: 20px;
 }
