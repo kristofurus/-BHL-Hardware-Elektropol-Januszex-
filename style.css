@@ -1,5 +1,5 @@
 /* style of page body */
-body {
+#container {
     background-color: #FAFAFF;
 }
 
@@ -10,17 +10,16 @@ body {
     font-family: Verdana;
     color: #FFFFFF;
     font-size: 20px;
-    border-radius: 25px;
+    border-radius: 10px;
     border-style: solid;
 }
 
-.button:hover
-{
+.button:hover {
     background-color: #0f5c89;
     cursor: pointer
 }
 
-bracket {
+.bracket {
     background-color: #1B98E0;
     border: #001D4A;
     font-family: Verdana;
@@ -30,7 +29,7 @@ bracket {
     border-style: solid;
 }
 
-logo {
+#logo {
     background-color: #1B98E0;
     border: #001D4A;
     font-family: Verdana;
@@ -41,7 +40,7 @@ logo {
     text-align: center;
 }
 
-nav {
+#nav {
     background-color: #1B98E0;
     border: #001D4A;
     font-family: Verdana;
@@ -54,7 +53,7 @@ nav {
     padding: 10px;
 }
 
-content {
+#content {
     background-color: #1B98E0;
     border: #001D4A;
     font-family: Verdana;
@@ -66,7 +65,7 @@ content {
     width: 640px
 }
 
-ad {
+#ad {
     background-color: #1B98E0;
     border: #001D4A;
     font-family: Verdana;
@@ -79,7 +78,7 @@ ad {
     padding: 10px;
 }
 
-footer {
+#footer {
     background-color: #1B98E0;
     border: #001D4A;
     font-family: Verdana;
