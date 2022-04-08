@@ -4,7 +4,23 @@ body {
 }
 
 /* style of button */
-button {
+.button {
+    background-color: #1B98E0;
+    border: #001D4A;
+    font-family: Verdana;
+    color: #FFFFFF;
+    font-size: 20px;
+    border-radius: 25px;
+    border-style: solid;
+}
+
+.button:hover
+{
+    background-color: #0f5c89;
+    cursor: pointer
+}
+
+bracket {
     background-color: #1B98E0;
     border: #001D4A;
     font-family: Verdana;
@@ -50,8 +66,7 @@ content {
     width: 640px
 }
 
-ad
- {
+ad {
     background-color: #1B98E0;
     border: #001D4A;
     font-family: Verdana;
@@ -64,8 +79,7 @@ ad
     padding: 10px;
 }
 
-footer
- {
+footer {
     background-color: #1B98E0;
     border: #001D4A;
     font-family: Verdana;
