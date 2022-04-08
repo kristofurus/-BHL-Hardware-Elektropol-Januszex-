@@ -56,7 +56,6 @@
 }
 
 #content {
-    background-color: #1B98E0;
     border: #001D4A;
     font-family: Verdana;
     color: #FFFFFF;
@@ -76,7 +75,7 @@
     font-size: 20px;
     border-style: solid;
     float: left;
-    width: 15%;
+    width: 14.7%;
     min-height: 620px;
     padding: 2%;
 }
