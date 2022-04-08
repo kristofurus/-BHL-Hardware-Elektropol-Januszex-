@@ -12,6 +12,7 @@
     font-size: 20px;
     border-radius: 10px;
     border-style: solid;
+    text-align: center;
 }
 
 .button:hover {
@@ -25,6 +26,7 @@
     font-family: Verdana;
     color: #FFFFFF;
     font-size: 20px;
+    text-align: center;
     border-radius: 25px;
     border-style: solid;
 }
@@ -62,7 +64,8 @@
     border-style: solid;
     float: left;
     padding: 20px;
-    width: 640px
+    width: 1460px;
+    min-height: 600px;
 }
 
 #ad {
