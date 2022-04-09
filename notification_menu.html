@@ -4,7 +4,7 @@
  <head>
     <meta charset='utf-8' />
     <title> Smart_Grandpa </title>
-    <link rel='stylesheet' href='style.css' type='text/css' />
+    <link rel='stylesheet' href='{{ url_for("static", filename="css/style.css") }}' type='text/css' />
 </head>
 
 
@@ -14,18 +14,20 @@
             <h1>Smart_Grandpa</h1>
         </div>
         <div id="nav">
-
+            <img src="../static/images/logo.png" alt="Logo image" height="300">
         </div>
         <div id="content">
-            <div class="bigbutton">Add Notification</div><br />
-            <div class="bigbutton">Delate Notification</div>
+            <div class="bigbutton" >
+                <a href="{{ url_for('set_notification') }}">Add Notification</a>
+            </div><br />
+            <div class="bigbutton">Delete Notification</div>
 
         </div>
         <div id="ad">
 
         </div>
         <div id="footer">
-            <div class="button">Back</div>
+            <a class="button" href="{{ url_for('home') }}">Back</a>
         </div>
     </div>
 </body>

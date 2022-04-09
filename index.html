@@ -3,28 +3,28 @@
 <head>
     <meta charset='utf-8' />
     <title> Smart_Grandpa </title>
-    <link rel='stylesheet' href='style.css' type='text/css' />
+    <link rel='stylesheet' href='{{ url_for("static", filename="css/style.css") }}' type='text/css' />
 </head>
 
 <body>
     <div id='container'>
         <div id='logo' class='logo'>
+
             <h1>Smart_Grandpa</h1>
         </div>
         <div id='nav'>
-
+            <img src="../static/images/logo.png" alt="Logo image" height="300">
         </div>
         <div id='content'>
-            <div id='Notification_button' class='bigbutton'>Notification</div><br />
-            <div id='Information_button' class='bigbutton'>Information from smart watch</div>
+            <div id='Notification_button' class='bigbutton'><a href="{{ url_for('notify') }}">Notification</a></div>
+            <br />
+            <div id='Information_button' class='bigbutton'><a href="{{ url_for('arduino') }}">Information from smart watch</a></div>
 
         </div>
         <div id='ad'>
 
         </div>
-        <div id='footer'>
-            <div class='button'>Back</div>
-        </div>
+        <div id="footer"> </div>
     </div>
 </body>
 

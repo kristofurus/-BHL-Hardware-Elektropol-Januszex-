@@ -3,11 +3,10 @@
 <head>
     <meta charset='utf-8' />
     <title> Smart_Grandpa </title>
-    <link rel='stylesheet' href='style.css' type='text/css' />
+    <link rel='stylesheet' href='{{ url_for("static", filename="css/style.css") }}' type='text/css' />
 </head>
 
 <body>
-    <link rel='stylesheet' href='style.css' type='text/css' />
 
     <div id='container'>
 
@@ -16,6 +15,7 @@
         </div>
 
         <div id='nav'>
+            <img src="../static/images/logo.png" alt="Logo image" height="300">
         </div>
 
         <div id='content'>
@@ -39,7 +39,7 @@
 
 
         <div id='footer'>
-            <div class='button'> Back </div> <br />
+            <a class="button" href="{{ url_for('home') }}">Back</a>
         </div>
 
     </div>
