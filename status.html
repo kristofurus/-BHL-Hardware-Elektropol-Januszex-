@@ -3,11 +3,10 @@
 <head>
     <meta charset='utf-8' />
     <title> Smart_Grandpa </title>
-    <link rel='stylesheet' href='style.css' type='text/css' />
+    <link rel='stylesheet' href='{{ url_for("static", filename="css/style.css") }}' type='text/css' />
 </head>
 
 <body>
-    <link rel='stylesheet' href='style.css' type='text/css' />
 
     <div id='container'>
 
@@ -15,21 +14,23 @@
             <h1>Smart Grandpa</h1>
         </div>
 
-        <div id='nav'> </div>
+        <div id='nav'>
+            <img src="../static/images/logo.png" alt="Logo image" height="300">
+        </div>
 
         <div id='content'>
             <div class='bracket'> Information from watch  </div> <br \> 
-            <div class='bracket_left'> Harte rate: </div>
-            <div id='HR_value' class='bracket_right'> value </div> <br \> <br \> <br \>
-            <div class='bracket_left'> Fall detection: </div> 
-            <div class='bracket_right'> value </div> <br \> <br \> <br \>
+            <div class='bracket' style="padding:30"> Harte rate:   {{ hr_value }} </div>
+<!--            <div id='HR_value' class='bracket_right'> </div> <br \> <br \> <br \>-->
+            <div class='bracket' style="padding:30"> Fall detection: {{ fall_detected}} </div>
+<!--            <div class='bracket_right'> </div> <br \> <br \> <br \>-->
         </div>
 
         <div id='ad'>
         </div>
 
         <div id='footer'>
-            <div class='button'> Back </div> <br />
+            <a class='button' href="{{ url_for('home') }}"> Back </a> <br />
         </div>
 
     </div>
